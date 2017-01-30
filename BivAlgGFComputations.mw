@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="16" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="900" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#This worksheet requires the packages FGb and RAGlib.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L249" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8" foreground="[0,128,0]">#FGb was written by Jean-Charles Faug\303\250re, and may be downloaded here: http://www-polsys.lip6.fr/~jcf/FGb/FGb/darwin_i386/index.html</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L250" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#RAGlib was written by Mohab Safey El Din, and may be downloaded here: http://www-polsys.lip6.fr/~safey/RAGLib/distrib.html</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L251" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(FGb):</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Path set to /Users/toringreenwood/Documents/GATech/Research/FGBTrials/FGblib//libfgbunid.so</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">    FGb/Maple interface package Version 1.68
+    JC Faugere (Jean-Charles.Faugere@inria.fr)
+    Type ?FGb for documentation</Text-field>
+</Output>
+</Group>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(RAG):</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">RAGlib release 3.23 (October 2014)</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Mohab Safey El Din (Mohab.Safey@lip6.fr)</Text-field>
+</Output>
+</Group>
+<Group labelreference="L265" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(Groebner):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L349" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Our goal is to compute an asymptotic approximation for the coefficients [x^r y^s] of F(x, y) = (1 - x*(1 + y))/sqrt(1 - 2*x*(1 + y) - x^2*(1 - y)^2) as r -&gt; infinity, where s/r is held in an approximately fixed ratio, mu.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L252" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#First, we define the polynomial in the denominator as H, along with the critical point equation, dH:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L255" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">H:=1-2*x*(1 + y) - x^2*(1 - y)^2:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L254" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dH:=y*diff(H, y) - mu*x*diff(H, x):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L266" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L253" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#The following Groebner basis will allow us to compute the critical points of H in terms of the direction, mu = s/r, wh:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L263" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gb:=Basis([H, dH], plex(y, x)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L279" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L277" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Setting the first basis element to zero tells us the x components of the critical points in terms of mu.  There are three critical points for each mu:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L262" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gb[1];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUkjbW5HRiQ2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RKCZtaW51cztGJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkctRiM2Ji1GLDYkUSIyRidGLy1GMzYtUTEmSW52aXNpYmxlVGltZXM7RidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSYwLjBlbUYnL0ZJRlMtSSNtaUdGJDYlUScmIzk1NjtGJy8lJ2l0YWxpY0dGOEYvRi8tRjM2LVEiK0YnRi9GNkY5RjtGPUY/RkFGQ0ZFRkgtRiM2JC1JJW1zdXBHRiQ2JUZVRkwvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRi9GZW4tRiM2Ji1JKG1mZW5jZWRHRiQ2JC1GIzYpLUYzNi1RKiZ1bWludXMwO0YnRi9GNkY5RjtGPUY/RkFGQ0ZFRkgtRiw2JFEiNEYnRi9GZW4tRiM2Ji1GLDYkUSI2RidGL0ZPRlVGL0YyLUYjNiZGTEZPRmpuRi9GL0YvRk8tRlY2JVEieEYnL0ZaUSV0cnVlRicvRjBRJ2l0YWxpY0YnRi9GZW4tRiM2Ji1GY282JC1GIzYoRmJwRjItRiM2JkZqb0ZPRlVGL0Zlbi1GLDYkUSIzRidGL0YvRi9GTy1GW282JUZkcEZMRl1vRi9GZW4tRiM2JkZMRk8tRltvNiVGZHBGY3FGXW9GL0Yv">LC4iIiJGIyomIiIjRiNJI211RzYiRiMhIiIqJClGJkYlRiNGIyomLCgiIiVGKComIiInRiNGJkYjRiMqJkYlRiNGKkYjRihGI0kieEdGJ0YjRiMqJiwoRjBGIyomRi1GI0YmRiNGKCIiJEYjRiMpRjFGJUYjRiMqJkYlRiMpRjFGNUYjRiM=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L260" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L276" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#We check that the critical points are smooth:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L275" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Basis([H, dH, diff(H, x)], plex(x, y, mu));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyMiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L274" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L273" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Next, we check that the critical points never have x = 0 or y = 0:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L272" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Basis([H, dH, x], plex(x, y, mu));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyMiIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L271" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Basis([H, dH, y], plex(x, y, mu));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYqLUkjbWlHRiQ2JVEnJiM5NTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIixGJ0Y1LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRi82JVEieUYnL0YzRkAvRjZRJ2l0YWxpY0YnRjgtRiw2KC1GLDYkLUklbXN1cEdGJDYlLUYvNiVRInhGJ0ZURlUtSSNtbkdGJDYkUSIyRidGNS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGNS1GOTYtUSgmbWludXM7RidGNUY8L0Y/RjRGQUZDRkVGR0ZJL0ZMUSwwLjIyMjIyMjJlbUYnL0ZPRmdvLUZcbzYkUSIxRidGNS1GOTYtUSIrRidGNUY8RmVvRkFGQ0ZFRkdGSUZmb0Zoby1GLDYmRltvLUY5Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y1RjxGZW9GQUZDRkVGR0ZJRksvRk9GTUZobkY1RjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjRGNUY1LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYn">NyVJI211RzYiSSJ5R0YkLCgqJClJInhHRiQiIiMiIiJGK0YrISIiKiZGKkYrRilGK0Yr</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L269" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Note that y = 0 only when mu = 0 in the second basis, which is outside our range of 0 &lt; mu &lt; 1</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L281" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Next, to show that the critical points are nondegenerate, we must show that M is nonzero.  In the following basis, the third and fourth equations define chi1 and chi2, and the fifth equation sets M = 0.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L283" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">MBasis:=Basis([H, dH, diff(H, x)*chi1 - diff(H, y), 2*diff(H, x)*chi2 - chi1^2 * diff(H, x$2) + 2*chi1*diff(H, x, y) - diff(H, y$2), 2*chi2*y^2*x + chi1^2*y^2 + mu*x^2], plex(chi1, chi2, y, x, mu)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L286" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L290" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">MBasis[1];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYtLUkjbW9HRiQ2LVEqJnVtaW51czA7RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkMtSSNtaUdGJDYlUScmIzk1NjtGJy8lJ2l0YWxpY0dGNEYvLUYsNi1RKCZtaW51cztGJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZELUYjNiYtSSNtbkdGJDYkUSMxMEYnRi8tRiw2LVExJkludmlzaWJsZVRpbWVzO0YnRi9GMkY1RjdGOUY7Rj1GPy9GQlEmMC4wZW1GJy9GRUZZLUklbXN1cEdGJDYlRkYtRlI2JFEiMkYnRi8vJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRi8tRiw2LVEiK0YnRi9GMkY1RjdGOUY7Rj1GP0ZBRkQtRiM2Ji1GUjYkUSMxMkYnRi9GVS1GZm42JUZGLUZSNiRRIjNGJ0YvRltvRi9GTC1GIzYmLUZSNiRRIjRGJ0YvRlUtRmZuNiVGRkZdcEZbb0YvRl5vLUYjNiZGaG5GVS1GZm42JUZGLUZSNiRRIjVGJ0YvRltvRi9GLw==">LCxJI211RzYiISIiKiYiIzUiIiIpRiMiIiNGKEYlKiYiIzdGKClGIyIiJEYoRigqJiIiJUYoKUYjRjBGKEYlKiZGKkYoKUYjIiImRihGKA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L291" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Using Sturm sequences, we can check how many times this vanishes for mu between 0 and 1:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L287" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">sturm(MBasis[1], mu, 0, 1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L315" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L289" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L314" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L313" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Now, we will show that the critical points always have real x and y coordinates for 0 &lt; mu &lt; 1.  To do so, we look at the discriminant of the polynomial gb[1] defining the x coordinates:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L288" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">xdiscr:=factor(discrim(gb[1], x));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEneGRpc2NyRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1GIzYnLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZVLUYjNigtSSNtbkdGJDYkUSI4RidGOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORltvLUkobWZlbmNlZEdGJDYkLUYjNiwtRiM2Ji1GWjYkUSIyRidGOUZnbi1JJW1zdXBHRiQ2JS1GLDYlUScmIzk1NjtGJy9GMEY9RjktRlo2JFEiNEYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZURlYtRiM2JkZecEZnbi1GaG82JUZqby1GWjYkUSIzRidGOUZhcEY5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkhGVEZWLUYjNiYtRlo2JFEjMTJGJ0Y5RmduLUZobzYlRmpvRmRvRmFwRjlGZHAtRiM2Ji1GWjYkUSMxMEYnRjlGZ25Gam9GOUZkcC1GWjYkUSIxRidGOUY5RjlGZ24tRmhvNiUtRl5vNiQtRiM2J0ZRRl1yRl5xRmpvRjlGOUZecEZhcEY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGZnJGaXJGOQ==">LCQqKCIiKSIiIiwsKiYiIiNGJSlJI211RzYiIiIlRiVGJSomRixGJSlGKiIiJEYlISIiKiYiIzdGJSlGKkYoRiVGJSomIiM1RiVGKkYlRjBGJUYwRiUpLCZGJUYwRipGJUYsRiVGMA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L305" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#If the discriminant is always positive, the x-coordinates are always real.  Of course, the (mu - 1)^4 factor is positive.  We check if the other factor is ever zero:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L306" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">sturm(2*mu^4-4*mu^3+12*mu^2-10*mu-1, mu, 0, 1);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L309" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Thus, the discriminant never changes sign.  Checking a point verifies it is positive:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L304" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(mu=1/4, xdiscr);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IyImeiFIIiUnNCU=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L308" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L310" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Thus, the x components of the critical points are real.  Solving for the y points in terms of x reveals that if x is real, so is y:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L303" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(gb[2], y);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbW9HRiQ2LVEqJnVtaW51czA7RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkMtSSZtZnJhY0dGJDYoLUYjNiYtRiM2Ni1JI21uR0YkNiRRIjRGJ0YvLUYsNi1RKCZtaW51cztGJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZELUYjNiQtSSVtc3VwR0YkNiUtSSNtaUdGJDYlUScmIzk1NjtGJy8lJ2l0YWxpY0dGNEYvLUZONiRRIjNGJ0YvLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0YvLUYsNi1RIitGJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZELUYjNiYtRk42JFEiNUYnRi8tRiw2LVExJkludmlzaWJsZVRpbWVzO0YnRi9GMkY1RjdGOUY7Rj1GPy9GQlEmMC4wZW1GJy9GRUZbcC1GVzYlRlktRk42JFEiMkYnRi9GXG9GL0ZRLUYjNiYtRk42JFEiOEYnRi9GZ29GWUYvRl9vLUYjNigtRk42JFEjMTNGJ0YvRmdvRllGZ28tRlo2JVEieEYnL0ZoblEldHJ1ZUYnL0YwUSdpdGFsaWNGJ0YvRl9vLUYjNihGX3BGZ29GVkZnb0ZccUYvRlEtRiM2KEZkcEZnb0ZdcEZnb0ZccUYvRlEtRiM2JkZkcEZnb0ZccUYvRlEtRiM2JkZNRmdvLUZXNiVGXHFGX3BGXG9GL0Zfby1GIzYoRl9wRmdvRllGZ29GW3JGL0YvLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y0Ri8tRiM2Ji1GIzYrRistRk42JFEiMUYnRi9GX28tRiM2JkZpbkZnb0ZZRi9GX29GVEZRLUYjNiZGaW5GZ29GXXBGL0YvRl9yRmJyRi8vJS5saW5ldGhpY2tuZXNzR0Zqci8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zjcy8lKWJldmVsbGVkR0Y0Rl9yRmJyRi8=">LCQqJiw2IiIlIiIiKiQpSSNtdUc2IiIiJEYmISIiKiYiIiZGJilGKSIiI0YmRiYqJiIiKUYmRilGJkYsKigiIzhGJkYpRiZJInhHRipGJkYmKihGMEYmRihGJkY1RiZGJiooRjJGJkYvRiZGNUYmRiwqJkYyRiZGNUYmRiwqJkYlRiYpRjVGMEYmRiwqKEYwRiZGKUYmRjpGJkYmRiYsKkYmRiwqJkYrRiZGKUYmRiZGJ0YmKiZGK0YmRi9GJkYsRixGLA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L301" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L300" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Therefore, all the critical points are real.  Note that the components of the critical points cannot change signs as mu ranges from 0 to 1, since the components are never zero.  We check a single value of mu to find the signs of the components:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L299" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(subs(mu = 1/2, gb[1]), x);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkmbWZyYWNHRiQ2KC1JI21uR0YkNiRRIjFGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictRi82JFEiNEYnRjIvJS5saW5ldGhpY2tuZXNzR0YxLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRjwvJSliZXZlbGxlZEdRJmZhbHNlRictSSNtb0dGJDYtUSIsRidGMi8lJmZlbmNlR0ZBLyUqc2VwYXJhdG9yR1EldHJ1ZUYnLyUpc3RyZXRjaHlHRkEvJSpzeW1tZXRyaWNHRkEvJShsYXJnZW9wR0ZBLyUubW92YWJsZWxpbWl0c0dGQS8lJ2FjY2VudEdGQS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUYjNiYtRiM2KC1GLDYoRi4tRi82JFEiMkYnRjJGOEY6Rj1GPy1GQzYtUTEmSW52aXNpYmxlVGltZXM7RidGMkZGL0ZJRkFGS0ZNRk9GUUZTRlUvRllGVy1GIzYkLUkmbXNxcnRHRiQ2Iy1GLzYkUSIzRidGMkYyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZBRjItRkM2LVEoJm1pbnVzO0YnRjJGRkZhb0ZLRk1GT0ZRRlMvRlZRLDAuMjIyMjIyMmVtRicvRllGZHBGaW5GMkZCLUYjNictRkM2LVEqJnVtaW51czA7RidGMkZGRmFvRktGTUZPRlFGU0ZjcEZlcEZpbkZgcEZnbkYyRltwRl5wRjI=">NiUjIiIiIiIlLCYqJiNGJCIiI0YkKSIiJEYoRiRGJEYoISIiLCZGKEYsRidGLA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L311" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L298" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ysol:=solve(subs(mu = 1/2, gb[2]), y):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L297" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(x = 1/4, ysol); evalf(subs(x = sqrt(3)/2 - 1/2, ysol)); evalf(subs(x = -sqrt(3)/2 - 1/2, ysol));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCErOTMwS1AhIio=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCEpP1x6RSEiKQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L316" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L312" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#It turns out that the critical point with x &gt; 0 and y &gt; 0 is always the closest to the origin.  We will verify that this point is minimal by using the RAGlib package.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L259" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L256" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#First, we break up the equation H = 0 into real and imaginary parts, where x = x1 + I*x2 and y = y1 + I*y2.  The next 5 lines can be used to verify the breakdown is correct, but are omitted to avoid assumptions on x1, x2, y1, y2, and mu later.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L208" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" foreground="[128,0,128]" layout="Normal"><Font foreground="[128,0,128]">#assume('x1', real);</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L207" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" foreground="[128,0,128]" layout="Normal"><Font foreground="[128,0,128]">#assume('x2', real);</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L210" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" foreground="[128,0,128]" layout="Normal"><Font foreground="[128,0,128]">#assume('y1', real);</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L211" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" foreground="[128,0,128]" layout="Normal"><Font foreground="[128,0,128]">#assume('y2', real);</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L212" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" foreground="[128,0,128]" layout="Normal"><Font foreground="[128,0,128]">#assume('mu', real);</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L223" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" foreground="[128,0,128]" layout="Normal"><Font foreground="[128,0,128]">#nonmineq:=[Re(subs(x = x1 + I*x2, y = y1 + I*y2, H)) = 0, Im(subs(x = x1 + I*x2, y = y1 + I*y2, H)) = 0];</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L258" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L257" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#The following equations are the real and imaginary parts of H = 0</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L222" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">nonmineq := [1-2*x1-2*x1*y1+2*x2*y2-x1^2+2*x1^2*y1-x1^2*y1^2+x1^2*y2^2+x2^2-2*x2^2*y1+x2^2*y1^2-x2^2*y2^2-4*x1*x2*y2+4*x1*x2*y1*y2 = 0, -2*x1*y2-2*x2-2*x2*y1+2*x1^2*y2-2*x1^2*y1*y2-2*x2^2*y2+2*x2^2*y1*y2-2*x1*x2+4*x1*x2*y1-2*x1*x2*y1^2+2*x1*x2*y2^2 = 0];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEpbm9ubWluZXFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNigtRiM2KC1GIzY+LUkjbW5HRiQ2JFEiMUYnRjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZqbi1GIzYmLUZZNiRRIjJGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZW8tRiw2JVEjeDFGJ0YvRjJGOUZmbi1GIzYoRl5vRmFvRmdvRmFvLUYsNiVRI3kxRidGL0YyRjktRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSEZpbkZbby1GIzYoRl5vRmFvLUYsNiVRI3gyRidGL0YyRmFvLUYsNiVRI3kyRidGL0YyRjlGZm4tRiM2JC1JJW1zdXBHRiQ2JUZnb0Zeby8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOUZfcC1GIzYoRl5vRmFvRlxxRmFvRlxwRjlGZm4tRiM2JkZccUZhby1GXXE2JUZccEZeb0ZfcUY5Rl9wLUYjNiZGXHFGYW8tRl1xNiVGZ3BGXm9GX3FGOUZfcC1GIzYkLUZdcTYlRmRwRl5vRl9xRjlGZm4tRiM2KEZeb0Zhb0ZeckZhb0ZccEY5Rl9wLUYjNiZGXnJGYW9GZnFGOUZmbi1GIzYmRl5yRmFvRmpxRjlGZm4tRiM2Ki1GWTYkUSI0RidGOUZhb0Znb0Zhb0ZkcEZhb0ZncEY5Rl9wLUYjNixGaHJGYW9GZ29GYW9GZHBGYW9GXHBGYW9GZ3BGOUY5LUY2Ni1RIj1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUZZNiRGYXFGOS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGZG8vRk5RLDAuMzMzMzMzM2VtRictRiM2KC1GIzY5LUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSEZpbkZbby1GIzYoRl5vRmFvRmdvRmFvRmdwRjlGZm4tRiM2JkZeb0Zhb0ZkcEY5RmZuLUYjNihGXm9GYW9GZHBGYW9GXHBGOUZfcC1GIzYoRl5vRmFvRlxxRmFvRmdwRjlGZm4tRiM2KkZeb0Zhb0ZccUZhb0ZccEZhb0ZncEY5RmZuLUYjNihGXm9GYW9GXnJGYW9GZ3BGOUZfcC1GIzYqRl5vRmFvRl5yRmFvRlxwRmFvRmdwRjlGZm4tRiM2KEZeb0Zhb0Znb0Zhb0ZkcEY5Rl9wLUYjNipGaHJGYW9GZ29GYW9GZHBGYW9GXHBGOUZmbi1GIzYqRl5vRmFvRmdvRmFvRmRwRmFvRmZxRjlGX3AtRiM2KkZeb0Zhb0Znb0Zhb0ZkcEZhb0ZqcUY5RjlGXXNGYHNGYnNGZXNGOUZic0Zlc0Y5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGYnNGZXNGOQ==">NyQvLD4iIiJGJSomIiIjRiVJI3gxRzYiRiUhIiIqKEYnRiVGKEYlSSN5MUdGKUYlRioqKEYnRiVJI3gyR0YpRiVJI3kyR0YpRiVGJSokKUYoRidGJUYqKihGJ0YlRjFGJUYsRiVGJSomRjFGJSlGLEYnRiVGKiomRjFGJSlGL0YnRiVGJSokKUYuRidGJUYlKihGJ0YlRjhGJUYsRiVGKiomRjhGJUY0RiVGJSomRjhGJUY2RiVGKioqIiIlRiVGKEYlRi5GJUYvRiVGKiosRj1GJUYoRiVGLkYlRixGJUYvRiVGJSIiIS8sOCooRidGJUYoRiVGL0YlRioqJkYnRiVGLkYlRioqKEYnRiVGLkYlRixGJUYqKihGJ0YlRjFGJUYvRiVGJSoqRidGJUYxRiVGLEYlRi9GJUYqKihGJ0YlRjhGJUYvRiVGKioqRidGJUY4RiVGLEYlRi9GJUYlKihGJ0YlRihGJUYuRiVGKioqRj1GJUYoRiVGLkYlRixGJUYlKipGJ0YlRihGJUYuRiVGNEYlRioqKkYnRiVGKEYlRi5GJUY2RiVGJUY/</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L318" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L214" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#From here on out, we define p and q to be the explicit critical points with p &gt; 0 and q &gt; 0.  x and y will refer to points on the variety {H = 0}.  The following equations define p and q:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L217" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">criteq:=[subs(x = p, y = q, H) = 0, subs(x = p, y = q, dH) = 0, p&gt;0, q&gt;0];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnY3JpdGVxRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYsLUYjNigtRiM2KC1JI21uR0YkNiRRIjFGJ0Y5LUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5Gam4tRiM2KC1GWTYkUSIyRidGOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmVvLUYsNiVRInBGJ0YvRjJGYW8tRlA2JC1GIzYmRlgtRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSEZpbkZbby1GLDYlUSJxRidGL0YyRjlGOUY5RmZuLUYjNiYtSSVtc3VwR0YkNiVGZ29GXm8vJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRmFvLUZncDYlLUZQNiQtRiM2JkZYRmZuRmFwRjlGOUZeb0ZpcEY5RjktRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRlk2JEZbcUY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZkby9GTlEsMC4zMzMzMzMzZW1GJy1GIzYoLUYjNiYtRiM2JkZhcEZhby1GUDYkLUYjNictRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIRmluRltvLUYjNiZGXm9GYW9GZ29GOUZecC1GIzYoRl5vRmFvRmZwRmFvRl5xRjlGOUY5RjlGZm4tRiM2KC1GLDYlUScmIzk1NjtGJy9GMEY9RjlGYW9GZ29GYW8tRlA2JC1GIzYpRlxzRl5vRmZuLUYjNiZGXm9GYW9GYXBGOUZmbi1GIzYoRl5vRmFvRmdvRmFvRlxxRjlGOUY5RjlGOUZicUZlcUZncUZqcUY5RlxyLUYjNihGZXEtRjY2LVEiPEYnRjlGO0Y+RkBGQkZERkZGSEZKRk1GZ29GZ3FGanFGOUZcci1GIzYoRmVxRmN0RmFwRmdxRmpxRjlGZ3FGanFGOUY5LyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmdxRmpxRjk=">NyYvLCgiIiJGJSooIiIjRiVJInBHNiJGJSwmRiVGJUkicUdGKUYlRiUhIiIqJilGKEYnRiUpLCZGJUYlRitGLEYnRiVGLCIiIS8sJiomRitGJSwmKiZGJ0YlRihGJUYsKihGJ0YlRi5GJUYwRiVGJUYlRiUqKEkjbXVHRilGJUYoRiUsKEYnRiwqJkYnRiVGK0YlRiwqKEYnRiVGKEYlRi9GJUYsRiVGLEYxMkYxRigyRjFGKw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L227" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L226" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L221" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#The following line checks whether there are (x, y) with |x| &lt; p, |y| &lt; q, and H(x, y) = 0:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L220" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">HasRealSolutions([op(nonmineq), op(criteq), 0 &lt; mu, mu &lt; 1, x1^2 + x2^2 &lt; p^2, y1^2 + y2^2 &lt; q^2, p&gt;0, q&gt;0]);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Number of polynomials to study: 6</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">	 Number of families to study: 1</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{100.00%} 
+Number of polynomials to study: 5
+	 Number of families to study: 2</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{100.00%} 
+Number of polynomials to study: 4
+	 Number of families to study: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{25.00%}{75.00%}{100.00%} 
+Number of polynomials to study: 3
+	 Number of families to study: 7</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{14.29%}{57.14%}{100.00%} 
+Number of polynomials to study: 2
+	 Number of families to study: 1</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{100.00%} </Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L219" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#The next two lines check whether there are (x, y) with |x| = p, |y| &lt; q, and H(x, y) = 0, and whether there are (x, y) with |x| &lt; p, |y| = q, and H(x, y) = 0.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L218" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">HasRealSolutions([op(nonmineq), op(criteq), 0 &lt; mu, mu &lt; 1, x1^2 + x2^2 = p^2, y1^2 + y2^2 &lt; q^2, p&gt;0, q&gt;0]);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Number of polynomials to study: 5</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">	 Number of families to study: 1</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{100.00%} 
+Number of polynomials to study: 4
+	 Number of families to study: 2</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{50.00%}{100.00%} 
+Number of polynomials to study: 3
+	 Number of families to study: 3</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{100.00%} 
+Number of polynomials to study: 2
+	 Number of families to study: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{25.00%}{100.00%} 
+Number of polynomials to study: 1
+	 Number of families to study: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{50.00%}{100.00%} </Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L233" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L229" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">HasRealSolutions([op(nonmineq), op(criteq), 0 &lt; mu, mu &lt; 1, x1^2 + x2^2 &lt; p^2, y1^2 + y2^2 = q^2, p&gt;0, q&gt;0]);</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Number of polynomials to study: 5</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">	 Number of families to study: 1</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{100.00%} 
+Number of polynomials to study: 4
+	 Number of families to study: 2</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{50.00%}{100.00%} 
+Number of polynomials to study: 3
+	 Number of families to study: 3</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{100.00%} 
+Number of polynomials to study: 2
+	 Number of families to study: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{50.00%}{100.00%} 
+Number of polynomials to study: 1
+	 Number of families to study: 4</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">{75.00%}{100.00%} </Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L230" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L240" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#The above lines verify that the critical points are indeed minimal, but they do *not* verify strict minimality.  Unfortunately, strict minimality cannot currently be verified for all 0 &lt; mu &lt; 1 simultaneously:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L241" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">HasRealSolutions([op(nonmineq), op(criteq), 0 &lt; mu, mu &lt; 1, x1^2 + x2^2 = p^2, y1^2 + y2^2 = q^2, x1&lt;&gt; p, p&gt;0, q&gt;0]);</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20RAG%3A-HasRealSolutions)%20The%20set%20of%20equations%20is%20not%20generic%3A%20Yet%20Not%20Implemented" hyperlink="true"><Font style="HyperlinkError">Error, (in RAG:-HasRealSolutions) The set of equations is not generic: Yet Not Implemented</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L242" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L319" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#However, it can be verified for any specific value of mu.  Here, we check mu = 1/2:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L320" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">HasRealSolutions([op(nonmineq), op(criteq), mu = 1/2, x1^2 + x2^2 = p^2, y1^2 + y2^2 = q^2, x1 &lt;&gt; p, p&gt;0, q&gt;0]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L321" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L324" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Thus, the unique critical point (p, q) where mu = 1/2 and p, q &gt; 0 is a strictly minimal critical point.  From above, we know this point is (p, q) = (1/4, 1).  Plugging this critical point into the equations for chi1, chi2, and M gives the following:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L247" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">chi1:=1/2*1*1/4;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoJiM5Njc7MUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JFEiMUYnRjktRlM2JFEiOEYnRjkvJS5saW5ldGhpY2tuZXNzR0ZVLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmduLyUpYmV2ZWxsZWRHRj0vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOQ==">IyIiIiIiKQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L248" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">chi2:=subs(x=1/4, y = 1, 1/(2*diff(H, x))*(chi1^2*diff(H, x$2) - 2*chi1*diff(H, x, y) + diff(H, y$2)));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoJiM5Njc7MkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GVS1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIzRidGOS1GZW42JFEjNjRGJ0Y5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zgby8lKWJldmVsbGVkR0Y9LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGZW9GaG9GOQ==">IyEiJCIjaw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L326" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">M:=subs(x=1/4, y = 1, -2*chi2/x - chi1^2/x^2 - 1/(2*y^2));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiTUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GVS1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIzRidGOS1GZW42JFEiOEYnRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmBvLyUpYmV2ZWxsZWRHRj0vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUZlb0Zob0Y5">IyEiJCIiKQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L329" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Plugging this into the expression from Corollary 1 yields an approximation for the coefficient of [x^r y^(1/2r)]H^(-1/2):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L327" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Happrox:=simplify(r^(1/2 - 3/2)*(1/4)^(-r)*(-subs(x=1/4, y = 1, diff(H, x))*1/4)^(-1/2)/(GAMMA(1/2)*sqrt(-2*Pi*M)));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoSGFwcHJveEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2KC1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIyRidGOS1GVTYkUSIzRidGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGam4vJSliZXZlbGxlZEdGPS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmNvLUZSNigtRiM2KC1JJW1zdXBHRiQ2JS1GVTYkUSI0RidGOS1GLDYlUSJyRidGL0YyLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zfby1JJm1zcXJ0R0YkNiNGWC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5LUYjNihGX3BGX28tRiw2JVEnJiM5NjA7RicvRjBGPUY5RmhwRltxRjlGZW5GaG5GW29GXW9GaHBGW3FGOUZocEZbcUY5">LCQqLCMiIiMiIiQiIiJJInJHNiIhIiIpIiIlRihGJ0kjUGlHJSpwcm90ZWN0ZWRHRiopRiYjRidGJUYnRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L328" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Multiplying by the numerator of the function, G(x, y) = 1 - x*(1 + y), evaluated at the critical point, gives the following:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L330" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fapprox:= Happrox*subs(x = 1/4, y = 1, 1 - x*(1 + y)); </Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEoRmFwcHJveEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2KC1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGOS1GVTYkUSIzRidGOS8lLmxpbmV0aGlja25lc3NHRlcvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGaW4vJSliZXZlbGxlZEdGPS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmJvLUZSNigtRiM2KC1JJW1zdXBHRiQ2JS1GVTYkUSI0RidGOS1GLDYlUSJyRidGL0YyLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zeby1JJm1zcXJ0R0YkNiNGWC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5LUYjNihGXnBGXm8tRiw2JVEnJiM5NjA7RicvRjBGPUY5RmdwRmpwRjlGZW5GZ25Gam5GXG9GZ3BGanBGOUZncEZqcEY5">LCQqLCMiIiIiIiRGJUkickc2IiEiIikiIiVGJ0YlSSNQaUclKnByb3RlY3RlZEdGKSlGJiNGJSIiI0YlRiU=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L331" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L332" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#Let's check the approximation for r = 70:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L333" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(subs(r = 70, Fapprox));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIrWydSI2ZPIiNJ</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L342" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,128,0]">#To compute the actual coefficients, we take derivatives.  This method is very inefficient; using the package gfun is preferable.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L336" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">F:=(1 - x*(1 + y))/(sqrt(1 - 2*x*(1 + y) - x^2*(1 - y)^2)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L334" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(subs(y = 0, diff(subs(x = 0, diff(F, x$70)), y$35))/(70!*35!));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIrdHk/KWYkIiNJ</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L335" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
